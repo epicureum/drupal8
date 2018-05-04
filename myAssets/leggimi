@@ -1,0 +1,3 @@
+per avviare una configurazione usa ad esempio
+
+sudo gulp --gulpfile hermes/gulpfile.js watch

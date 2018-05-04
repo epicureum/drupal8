@@ -1,0 +1,5 @@
+#!/bin/sh
+#notify-send "sto per avviare gulp"
+
+sudo gulp --gulpfile hermes/gulpfile.js watch
+

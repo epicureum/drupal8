@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gnome-terminal --execute bash -c "echo hello; bash"

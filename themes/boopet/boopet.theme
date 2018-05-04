@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+/*
+function boopet_preprocess_region(&$vars) {
+ kint($vars);
+}
+
+function boopet_preprocess_block(&$variables) {
+  if ($variables['attributes']['id'] == 'block-boopet-mainnavigation-2') {
+    $variables['attributes']['class'][] = 'clearfix';
+  kint($variables); 
+  }
+*/   

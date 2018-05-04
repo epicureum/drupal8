@@ -1,0 +1,21 @@
+.site-logo {
+    display:block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.l-branding {
+    background:  url("../images/petpal_header.jpg") no-repeat right top ;
+    height:137px;
+    margin-top: 10px;
+}
+
+.l-branding h2 {
+    font-family: $font_serif;
+    @include font-size(16px);
+    color: $brown;
+    font-style: normal;
+    margin: 0 0 0 110px;
+}
+

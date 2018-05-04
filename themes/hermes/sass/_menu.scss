@@ -1,0 +1,127 @@
+
+#menu-main {
+    background-color: $color_menu;
+}
+#menu-main li {
+    float: left; 
+    border-right: solid 1px #fff;
+    margin: 0 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+//    height: 3.8em;
+ /*   width: 16.666%;*/
+    text-align: center;
+    border-bottom: solid 5px $color_menu;
+ /*   :hover  {background-color: $color_menu + 20;}*/
+}
+#menu-main li a {
+    display: block; 
+/*    font-family: $font_serif; 
+    @include font-size(16px); */
+    color: $brown;
+    text-decoration: none;
+
+   /* text-align: center;
+
+    width: 10.8em;*/
+    margin-top: 0.5em;
+    margin-bottom:0.2em;
+ }
+#menu-main li :hover,
+#menu-main li .active,
+#menu-main li .active-trail {
+    border-bottom: solid 5px $noi-e-loro;
+}
+
+#menu-secondary {
+/* questo rende possibile l'affiancamento dello user menu */
+    display: inline;
+    position: relative;
+    background-color: #FFF;
+ /*   float: left;*/
+    margin-left: 2.5em; 
+}
+#menu-secondary  li {
+  /*  float:left;*/
+  /*  list-style-type: disc; */
+
+    margin-right: 40px;
+    margin-top: 1em;
+ }
+#menu-secondary li a {
+    float: left;
+    text-decoration: none ;
+    text-align: center;
+    text-transform: uppercase;
+/*    @include font-size(13px);
+    font-family: $font_serif;*/
+    color: $brown;
+}
+
+#menu-secondary li a:hover,
+#menu-secondary .active,
+ {
+    color: $red;
+ /*   background-color: #EA0; 
+    border-radius: 10px;*/
+ }
+
+
+.tabs--primary {
+  border-bottom: 1px solid #DDD;
+  padding:23px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid grey;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+  margin-right: 2px;
+  padding: 4px;
+  line-height: 1.42857143;
+  border: 1px solid grey;
+  border-radius: 4px 4px 0 0;
+  }
+  
+.nav-tabs > li > a:hover {
+  border-color: #CCC;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #2c3e50;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+
+.page-header {
+    font-size: 20px;
+    margin: 20px 0 25px 0;
+    padding: 20px;
+    clear: both;
+}   
+
+a {
+  color: $mid-blue;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: $mid-blue;
+  text-decoration: underline;
+}
+/*
+a:focus {
+  outline: 5px auto #33ff33;
+  outline-offset: -2px;
+}
+ 
+*/

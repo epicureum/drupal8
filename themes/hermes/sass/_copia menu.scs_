@@ -1,0 +1,113 @@
+.contextual-region {
+    width:200px;
+ background-color: #F0C;
+}
+
+
+#menu-main {
+    background-color: $color_menu;
+}
+
+#menu-main li {
+    float: left; 
+    border-right: solid 1px #fff;
+    margin: 0 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+//    height: 3.8em;
+ /*   width: 16.666%;*/
+    text-align: center;
+    border-bottom: solid 5px $color_menu;
+ /*   :hover  {background-color: $color_menu + 20;}*/
+}
+
+
+#menu-main li a {
+    display: block; 
+/*    font-family: $font_serif; 
+    @include font-size(16px); */
+    color: $brown;
+    text-decoration: none;
+
+   /* text-align: center;
+
+    width: 10.8em;*/
+    margin-top: 0.5em;
+    margin-bottom:0.2em;
+ }
+
+#menu-main li :hover,
+#menu-main li .active,
+#menu-main li .active-trail {
+    border-bottom: solid 5px $noi-e-loro;
+}
+
+
+#menu-secondary {
+/* questo rende possibile l'affiancamento dello user menu */
+    display: inline;
+    position: relative;
+    background-color: #FFF;
+ /*   float: left;*/
+    margin-left: 2.5em; 
+}
+
+#menusecondary  li {
+  /*  float:left;*/
+  /*  list-style-type: disc; */
+
+    margin-right: 40px;
+    margin-top: 1em;
+ }
+
+#menusecondary li a {
+    float: left;
+    text-decoration: none ;
+    text-align: center;
+    text-transform: uppercase;
+/*    @include font-size(13px);
+    font-family: $font_serif;*/
+    color: $brown;
+}
+ 
+#menusecondary li a:hover,
+#menusecondary .active,
+ {
+    color: $red;
+ /*   background-color: #EA0; 
+    border-radius: 10px;*/
+ }
+
+
+/* local task menu */
+
+/*
+.tabs--primary {
+ border-bottom: 1px solid #ecf0f1;
+}
+
+.tabs--primary > li {
+ float: left;
+ margin-bottom: -1px;
+}
+.tabs--primary > li > a {
+ margin-right: 2px;
+ line-height: 1.42857143;
+ border: 1px solid transparent;
+ border-radius: 4px 4px 0 0;
+}
+
+
+.navi > li > a {
+ position: relative;
+ display: block;
+ padding: 10px 15px;
+}
+
+.navi {
+ margin-bottom: 0;
+ padding-left: 0;
+ list-style: none;
+}
+*/

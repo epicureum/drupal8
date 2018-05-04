@@ -1,0 +1,17 @@
+name: Hermes
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+libraries:
+  - hermes/global-css
+  - hermes/global-js
+# libraries-override:
+#  system/base: false
+#stylesheets-remove:
+#  - core/themes/stable/css/user/user.icons.admin.css    
+regions:
+  header: 'Header'
+  navigation: 'Navigation'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
